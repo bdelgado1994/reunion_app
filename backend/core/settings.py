@@ -146,5 +146,7 @@ SIMPLE_JWT={
     "TOKEN_USER_CLASS": "rest_framework_simplejwt.models.TokenUser",
 }
 #Cors
-CORS_ALLOW_ALL_ORIGINS=True
+#CORS_ALLOW_ALL_ORIGINS=True
 CORS_ALLOW_CREDENTIALS=True
+CORS_ALLOWED_ORIGINS =["https://192.168.1.109:8081","https://localhost:8081"]
+ALLOWED_HOSTS=["192.168.1.109","localhost"]
