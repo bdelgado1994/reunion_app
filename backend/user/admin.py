@@ -1,7 +1,9 @@
 from django.contrib import admin
-from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
-from .models import User, Rol
+from .models import User, Rol, Sector, Reunion, DetalleReunion, Invitado
 
 admin.site.register(Rol)
-
 admin.site.register(User)
+admin.site.register(Sector)
+admin.site.register(Reunion)
+admin.site.register(DetalleReunion)
+admin.site.register(Invitado)
